@@ -25,4 +25,9 @@ public class MainController {
     public String calc3() {
         return "calculator3";
     }
+
+    @RequestMapping("/calc5")
+    public String calc5() {
+        return "calculator5";
+    }
 }
